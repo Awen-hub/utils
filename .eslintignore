@@ -1,0 +1,10 @@
+node_modules
+.eslintrc.js
+jest.config.js
+index.ts
+handleDtsFile.js
+cjs
+esm
+coverage
+docs
+jsdocs
