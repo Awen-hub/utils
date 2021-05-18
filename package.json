@@ -1,0 +1,47 @@
+{
+  "name": "mi-utils",
+  "version": "0.0.1",
+  "description": "团队工具函数库",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "test": "jest --collect-coverage",
+    "doc": "jsdoc -c jsdoc.json",
+    "md": "jsdoc2md esm/index.js > docs/readme.md",
+    "build": "rollup -c  && tsc && yarn doc && yarn md && node handleDtsFile.js && docsify serve ./docs",
+    "format": "yarn prettier --write lib/**/*.ts && yarn prettier --write test/**/*.ts",
+    "fix": "eslint --fix lib/**/*.ts --no-ignore && eslint --fix test/**/*.ts --no-ignore"
+  },
+  "keywords": [
+    "函数工具库"
+  ],
+  "author": "Awen",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.13.15",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@types/jest": "^26.0.22",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "babel-preset-env": "^1.7.0",
+    "clean-jsdoc-theme": "^3.2.6",
+    "conventional-changelog-cli": "^2.1.1",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^26.6.3",
+    "jsdoc": "^3.6.6",
+    "prettier": "2.3.0",
+    "rollup": "^2.45.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4"
+  },
+  "exports": {
+    "require": "./cjs/index.js",
+    "import": "./esm/index.js"
+  }
+}
