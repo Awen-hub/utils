@@ -7,5 +7,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
       - run: npm install -g eslint
+      - run: npm install @typescript-eslint/eslint-plugin@latest --save-dev
       - run: eslint --fix --no-ignore lib/**/*.ts test/**/*.ts
     
