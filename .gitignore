@@ -4,3 +4,4 @@ esm
 *.log
 coverage
 docs
+husky.config.js
