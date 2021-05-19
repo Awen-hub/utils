@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: bahmutov/npm-install@v1
+      - uses: bahmutov/pnpm-install@v1
       - name: Run unit tests
         run: yarn test --ci
     
