@@ -58,10 +58,10 @@
     }
   },
   "lint-staged": {
-    "*.ts": [
+    "lib/**/*.ts": [
       "prettier --write",
-      "eslint --fix",
-      "git add"
-    ]
+      "eslint --fix"
+    ],
+    "*.js": "eslint --cache --fix"
   }
 }
