@@ -10,5 +10,3 @@ docs
 jsdocs
 .cz-config.js 
 commitlint.config.js
-validate-commit-msg.js
-commit-message-config.js
