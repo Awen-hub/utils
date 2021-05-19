@@ -8,3 +8,5 @@ esm
 coverage
 docs
 jsdocs
+.cz-config.js 
+commitlint.config.js
