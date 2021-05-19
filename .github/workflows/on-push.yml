@@ -10,8 +10,3 @@ jobs:
       run: npm install -g eslint
       run: eslint --fix --no-ignore lib/**/*.ts test/**/*.ts
     
-    - name build
-      uses: actions/checkout@v2
-      uses: actions/setup-node@v14.16.0
-      run: npm install -g rollup
-      run: rollup -c
