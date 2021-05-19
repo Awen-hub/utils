@@ -6,7 +6,7 @@
   "module": "esm/index.js",
   "scripts": {
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "lint": "eslint --fix --no-ignore lib/**/*.ts test/**/*.ts ",
+    "lint": "eslint --fix --no-ignore lib/**/*.ts test/**/*.ts",
     "test": "yarn lint && jest --collect-coverage",
     "doc": "jsdoc -c jsdoc.json",
     "md": "jsdoc2md esm/index.js > docs/readme.md",
