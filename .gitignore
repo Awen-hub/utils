@@ -2,5 +2,7 @@ node_modules
 cjs
 esm
 coverage
+jsdocs
+docs
 docs
 *.log
