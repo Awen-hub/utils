@@ -11,7 +11,8 @@
     "md": "jsdoc2md esm/index.js > docs/readme.md",
     "build": "rollup -c  && tsc && yarn doc && yarn md && node handleDtsFile.js && docsify serve ./docs",
     "format": "yarn prettier --write lib/**/*.ts && yarn prettier --write test/**/*.ts",
-    "fix": "eslint --fix lib/**/*.ts --no-ignore && eslint --fix test/**/*.ts --no-ignore"
+    "fix": "eslint --fix lib/**/*.ts --no-ignore && eslint --fix test/**/*.ts --no-ignore",
+    "prepare": "husky install"
   },
   "keywords": [
     "函数工具库"
