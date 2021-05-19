@@ -7,7 +7,7 @@ module.exports = {
       [
         "WIP", // 开发中
         "feat", // 新特性
-        "improvement", // 加强现有特性
+        "improvement", //   加强现有特性
         "fix", // 修补bug
         "refactor", // 重构
         "docs", // 文档
