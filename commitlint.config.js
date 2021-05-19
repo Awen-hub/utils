@@ -14,7 +14,7 @@ module.exports = {
         "test", // 单元测试
         "config", // 配置文件
         "style", // 格式需改
-        "perf", // 性能提升
+        "perf", //  性能提升
         "ci", // ci
         "revert", // 版本回退
         "chore", // 其他修改
