@@ -2,6 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 yarn test
-eslint --fix lib/**/*.ts test/**/*.ts scripts/*.js 
-npx lint-staged
 
