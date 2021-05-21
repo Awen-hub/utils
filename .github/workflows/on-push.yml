@@ -12,5 +12,5 @@ jobs:
       - name: Run unit tests
         run: |
           npm install
-          npm run test --ci
-    
+          npm install jsdoc jsdoc2md rollup docsify typescript -g
+          npm run build
