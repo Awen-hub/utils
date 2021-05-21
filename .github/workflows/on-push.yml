@@ -12,5 +12,5 @@ jobs:
       - name: Run unit tests
         run: |
           npm install
-          npm install jsdoc jsdoc-to-markdown rollup docsify typescript -g
+          npm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
           npm run build
