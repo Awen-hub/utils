@@ -1,10 +1,3 @@
-## Members
-
-<dl>
-<dt><a href="#listenersMap">listenersMap</a> : <code>Array.&lt;function()&gt;</code></dt>
-<dd></dd>
-</dl>
-
 ## Objects
 
 <dl>
@@ -20,10 +13,6 @@
 <dd></dd>
 </dl>
 
-<a name="listenersMap"></a>
-
-## listenersMap : <code>Array.&lt;function()&gt;</code>
-**Kind**: global variable  
 <a name="Array"></a>
 
 ## Array : <code>object</code>

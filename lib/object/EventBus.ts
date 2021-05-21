@@ -10,9 +10,6 @@
  * eventBus.off('log', num)
  */
 class EventBus {
-  /**
-   * @member {Function[]} listenersMap
-   */
   // eslint-disable-next-line @typescript-eslint/ban-types
   private listenersMap: Map<string, Function> = new Map();
 
