@@ -9,8 +9,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
-      - name: Run unit tests
+      - name: Run build
         run: |
-          npm install
-          npm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
-          npm run build
+          npm install pnpm -g
+          pnpm install
+          pnpm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
+          pnpm run build

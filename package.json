@@ -13,7 +13,8 @@
     "build": "rollup -c  && tsc && yarn doc && yarn md && node scripts/handleDtsFile.js && docsify serve ./docs",
     "format": "yarn prettier --write lib/**/*.ts && yarn prettier --write test/**/*.ts",
     "fix": "eslint --fix lib/**/*.ts --no-ignore && eslint --fix test/**/*.ts --no-ignore",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "standard-version"
   },
   "keywords": [
     "函数工具库"
@@ -45,6 +46,7 @@
     "prettier": "2.3.0",
     "rollup": "^2.45.2",
     "rollup-plugin-typescript2": "^0.30.0",
+    "standard-version": "^9.3.0",
     "ts-jest": "^26.5.5",
     "typescript": "^4.2.4"
   },
