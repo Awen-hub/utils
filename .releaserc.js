@@ -3,13 +3,13 @@ module.exports = {
   plugins: [
     [
       "@semantic-release/commit-analyzer", //此处负责解析commit
-      {
-        "config": "conventional-changelog-cmyr-config" //自定义配置，如果不填则是默认的conventional-changelog-angular
-      }
+      // {
+      //   "config": "conventional-changelog-cmyr-config" //自定义配置，如果不填则是默认的conventional-changelog-angular
+      // }
     ],
     ["@semantic-release/release-notes-generator", //此处生成github-release的日志
       {
-        "config": "conventional-changelog-cmyr-config" //指定配置，这里才是负责生成日志的，也就是说，如果自定义了writerOpts，只有在这里写才会生效
+        "config": "./changelog-option.js" //指定配置，这里才是负责生成日志的，也就是说，如果自定义了writerOpts，只有在这里写才会生效
       }
     ],
     [
