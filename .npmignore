@@ -2,3 +2,20 @@ coverage
 README (and its variants)
 CHANGELOG (and its variants)
 LICENSE / LICENCE
+.github
+.husky
+.vscode
+jsdocs
+scripts
+test
+.czconfig.js
+.gitignore
+.eslintignore
+.eslintrc.js
+.npmignore
+*.log
+commitlint.config.js
+jest.config.js
+jsdoc.json
+rollup.config.js
+tsconfig.json
