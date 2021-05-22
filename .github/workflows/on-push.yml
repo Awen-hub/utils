@@ -20,8 +20,10 @@ jobs:
         run: |
           git config --global user.email "920733056@qq.com"
           git config --global user.name "Awen-hub"
-          npm version patch
-          npm publish || true
+          npm run release 
+        # npm version patch
+        # npm publish || true
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this as is, it's automatically generated
