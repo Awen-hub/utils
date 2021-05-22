@@ -10,3 +10,4 @@ docs
 jsdocs
 .cz-config.js 
 commitlint.config.js
+.versionrc

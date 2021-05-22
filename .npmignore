@@ -19,3 +19,5 @@ jest.config.js
 jsdoc.json
 rollup.config.js
 tsconfig.json
+docs
+.versionrc
