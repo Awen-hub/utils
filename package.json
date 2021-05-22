@@ -1,12 +1,12 @@
 {
   "name": "mi-utils",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "团队工具函数库",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "scripts": {
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "lint": "npm run format && eslint --fix --no-ignore lib/**/*.ts test/**/*.ts",
+    "lint": "yarn format && eslint --fix --no-ignore lib/**/*.ts test/**/*.ts",
     "test": "yarn lint && jest --collect-coverage",
     "doc": "jsdoc -c jsdoc.json",
     "serve": "docsify serve ./docs",
