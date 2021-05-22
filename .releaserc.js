@@ -1,4 +1,5 @@
 module.exports = {
+  "branches": "main",
   plugins: [
     [
       "@semantic-release/commit-analyzer", //此处负责解析commit
@@ -15,13 +16,24 @@ module.exports = {
       "@semantic-release/changelog", //此处会调用上一个插件生成的新增日志，然后合并到原有日志中
       {
         "changelogFile": "CHANGELOG.md",
-        "changelogTitle": "# my-changelog-test"
+        "changelogTitle": "# 日志"
       }
     ],
     '@semantic-release/npm', //如果是npm包会自动更新版本号并发布
     '@semantic-release/github', //推送代码回到GitHub
     [
       "@semantic-release/git", //发布release
+      {
+        "assets": [
+          "package.json",
+          "CHANGELOG.md"
+        ],
+      }
     ]
-  ]
+  ],
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
 }
