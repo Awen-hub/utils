@@ -17,7 +17,9 @@ jobs:
           pnpm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
           pnpm run build
       - name: Publish to NPM
-        run: npm publish || true
+        run: |
+          npm version patch
+          npm publish || true
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
