@@ -2,7 +2,7 @@ module.exports = {
   "branches": "main",
   plugins: [
     [
-      "@semantic-release/commit-analyzer", //此处负责解析commit
+      "@semantic-release/commit-analyzer", // 此处负责解析commit
       {
         "config": "./release-rules.js" //自定义配置，如果不填则是默认的conventional-changelog-angular
       }
