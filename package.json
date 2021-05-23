@@ -16,7 +16,8 @@
     "fix": "eslint --fix lib/**/*.ts --no-ignore && eslint --fix test/**/*.ts --no-ignore",
     "prepare": "husky install",
     "release": "semantic-release",
-    "push": "npm version patch && version=$(echo $(node scripts/patchVersion.js)) && git tag $version && git push origin --tags"
+    "patch": "npm version patch",
+    "push": "version=$(echo $(node scripts/patchVersion.js)) && git tag $version && git push origin --tags"
   },
   "keywords": [
     "函数工具库"

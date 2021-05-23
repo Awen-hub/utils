@@ -4,5 +4,5 @@ const {
 
 const versionList = version.split(".");
 versionList[2] = Number(versionList[2]) + 1;
-const newVersion = versionList.join(".");
+const newVersion = "v" + versionList.join(".");
 console.log(newVersion);

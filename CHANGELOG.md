@@ -1,5 +1,9 @@
 # 日志
 
+## <small>1.0.1 (2021-05-22)</small>
+
+* fix(action): 发版命令要在指定用户之前 ([6f12b02](https://github.com/Awen-hub/utils/commit/6f12b02))
+
 ## 1.0.0 (2021-05-22)
 
 * feat(action): 增加ci功能 ([2bd973d](https://github.com/Awen-hub/utils/commit/2bd973d))

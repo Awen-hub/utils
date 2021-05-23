@@ -20,7 +20,7 @@ jobs:
         run: |
           git config --global user.email "920733056@qq.com"
           git config --global user.name "Awen-hub"
-        #  npm version patch
+          npm version patch
           pnpm run release 
         # npm version patch
         # npm publish || true
