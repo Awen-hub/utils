@@ -1,5 +1,14 @@
 # 日志
 
+## 2.1.0 (2021-05-23)
+
+* feat(github): 尝试更新git tag ([3134f95](https://github.com/Awen-hub/utils/commit/3134f95))
+* fix(github): 发版 ([22459db](https://github.com/Awen-hub/utils/commit/22459db))
+* fix(github): 自动发版 ([693fb03](https://github.com/Awen-hub/utils/commit/693fb03))
+* fix(github): 自动发版 ([fcccc41](https://github.com/Awen-hub/utils/commit/fcccc41))
+* fix(github): 自动发版 ([f5cbf5c](https://github.com/Awen-hub/utils/commit/f5cbf5c))
+* fix(github): 自动打log ([0355249](https://github.com/Awen-hub/utils/commit/0355249))
+
 ## <small>1.0.1 (2021-05-22)</small>
 
 * fix(action): 发版命令要在指定用户之前 ([6f12b02](https://github.com/Awen-hub/utils/commit/6f12b02))
