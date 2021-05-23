@@ -1,6 +1,6 @@
 {
   "name": "mi-utils",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "团队工具函数库",
   "main": "cjs/index.js",
   "module": "esm/index.js",
@@ -15,7 +15,8 @@
     "format": "yarn prettier --write lib/**/*.ts && yarn prettier --write test/**/*.ts",
     "fix": "eslint --fix lib/**/*.ts --no-ignore && eslint --fix test/**/*.ts --no-ignore",
     "prepare": "husky install",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "push": "npm version patch && version=$(echo $(node scripts/patchVersion.js)) && git tag $version && git push origin --tags"
   },
   "keywords": [
     "函数工具库"
