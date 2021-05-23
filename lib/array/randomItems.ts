@@ -3,7 +3,7 @@ import { trunc } from "lib/number/trunc";
 /**
  * @memberof Array
  * @name randomItems
- * @description 从传入数组中获取若干随机项作为返回值, 选取的项可能重复
+ * @description  从传入数组中获取若干随机项作为返回值, 选取的项可能重复
  * @param {Array} originList -随机项的来源数组
  * @param {number} [targetCounts] -需要返回多少项，默认为1
  * @returns {null|Array} -返回数组的任意一项或者把若干项合并为数组返回, 个别异常返回null
