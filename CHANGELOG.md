@@ -1,5 +1,7 @@
 # 日志
 
+## 2.2.0 (2021-05-23)
+
 ## <small>2.1.2 (2021-05-23)</small>
 
 * fix(faban): fanban ([1be0acd](https://github.com/Awen-hub/utils/commit/1be0acd))
