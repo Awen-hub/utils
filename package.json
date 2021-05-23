@@ -17,7 +17,7 @@
     "prepare": "husky install",
     "release": "semantic-release",
     "patch": "npm version patch",
-    "push": "version=$(echo $(node scripts/patchVersion.js)) && git tag $version && git push origin --tags"
+    "push": "version=$(echo $(node scripts/patchVersion.js)) && git tag $version && git push"
   },
   "keywords": [
     "函数工具库"
