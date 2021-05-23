@@ -15,7 +15,7 @@ const exchangeItemByIndex = (
   fromIndex: number,
   toIndex: number
 ): null | any[] => {
-  //异常处理
+  // 异常处理
   if (
     fromIndex < 0 ||
     fromIndex >= originList.length ||
