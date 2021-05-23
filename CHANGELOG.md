@@ -1,5 +1,12 @@
 # 日志
 
+## <small>2.3.1 (2021-05-23)</small>
+
+* fix(test): test ([2b7fe24](https://github.com/Awen-hub/utils/commit/2b7fe24))
+* fix(发版): 发版 ([c4897d6](https://github.com/Awen-hub/utils/commit/c4897d6))
+* Merge branch 'main' of https://github.com/Awen-hub/utils ([e843e82](https://github.com/Awen-hub/utils/commit/e843e82))
+* fix(发版): 发版 ([3b12605](https://github.com/Awen-hub/utils/commit/3b12605))
+
 ## 2.3.0 (2021-05-23)
 
 ## 2.2.0 (2021-05-23)
