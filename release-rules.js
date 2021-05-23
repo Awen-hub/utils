@@ -1,6 +1,29 @@
 module.exports = [{
+    type: "feat",
+    release: "minor",
+  },
+  {
+    type: "fix",
+    release: "patch",
+  },
+  {
+    type: "perf",
+    release: "patch",
+  },
+  {
+    type: "revert",
+    release: "patch",
+  },
+  {
+    type: "chore",
+    release: "patch",
+  },
+  {
     type: "docs",
-    scope: "README",
+    release: "patch",
+  },
+  {
+    type: "style",
     release: "patch",
   },
   {
@@ -8,7 +31,23 @@ module.exports = [{
     release: "minor",
   },
   {
-    type: "fix",
+    type: "test",
+    release: "patch",
+  },
+  {
+    type: "build",
+    release: "patch",
+  },
+  {
+    type: "ci",
+    release: "patch",
+  },
+  {
+    type: "config",
+    release: "patch",
+  },
+  {
+    type: "improvement",
     release: "patch",
   },
 ];

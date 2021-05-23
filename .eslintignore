@@ -12,3 +12,6 @@ jsdocs
 commitlint.config.js
 .versionrc
 scripts
+.releaserc.js
+release-rules.js
+changelog-option.js
