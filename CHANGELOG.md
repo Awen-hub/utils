@@ -1,5 +1,12 @@
 # 日志
 
+## <small>2.3.2 (2021-05-23)</small>
+
+* config(global): 修改配置 ([b743d3f](https://github.com/Awen-hub/utils/commit/b743d3f))
+* config(global): 发版 ([cccea8a](https://github.com/Awen-hub/utils/commit/cccea8a))
+* config(global): 合并 ([bd6ce5b](https://github.com/Awen-hub/utils/commit/bd6ce5b))
+* config(global): 添加配置 ([ac0c278](https://github.com/Awen-hub/utils/commit/ac0c278))
+
 ## <small>2.3.1 (2021-05-23)</small>
 
 * fix(test): test ([2b7fe24](https://github.com/Awen-hub/utils/commit/2b7fe24))
