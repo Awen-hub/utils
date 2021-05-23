@@ -1,5 +1,10 @@
 # 日志
 
+## <small>2.1.2 (2021-05-23)</small>
+
+* fix(faban): fanban ([1be0acd](https://github.com/Awen-hub/utils/commit/1be0acd))
+* fix(git): 发版 ([4edce6a](https://github.com/Awen-hub/utils/commit/4edce6a))
+
 ## <small>2.1.1 (2021-05-23)</small>
 
 * fix(github): 修改发版配置 ([3172d30](https://github.com/Awen-hub/utils/commit/3172d30))
