@@ -4,7 +4,8 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer", // 此处负责解析commit
       {
-        "config": "./release-rules.js" //自定义配置，如果不填则是默认的conventional-changelog-angular
+        "preset": "angular",
+        "releaseRules": "./release-rules.js" //自定义配置，如果不填则是默认的conventional-changelog-angular
       }
     ],
     ["@semantic-release/release-notes-generator", //此处生成github-release的日志
