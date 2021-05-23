@@ -1,5 +1,9 @@
 # 日志
 
+## <small>2.1.1 (2021-05-23)</small>
+
+* fix(github): 修改发版配置 ([3172d30](https://github.com/Awen-hub/utils/commit/3172d30))
+
 ## 2.1.0 (2021-05-23)
 
 * feat(github): 尝试更新git tag ([3134f95](https://github.com/Awen-hub/utils/commit/3134f95))
