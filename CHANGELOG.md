@@ -1,5 +1,17 @@
 # 日志
 
+# [2.5.0](https://github.com/Awen-hub/utils/compare/v2.4.0...v2.5.0) (2021-05-24)
+
+
+### ♻ Refactor | 代码重构
+
+* **global:** 测试 ([a7cb967](https://github.com/Awen-hub/utils/commit/a7cb967))
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **global:** 测试 ([258347f](https://github.com/Awen-hub/utils/commit/258347f))
+
 # [2.4.0](https://github.com/Awen-hub/utils/compare/v2.3.14...v2.4.0) (2021-05-24)
 
 
