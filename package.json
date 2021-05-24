@@ -99,11 +99,11 @@
       },
       "style": {
         "title": "💄 Styles | 风格",
-        "enable": true
+        "enable": false
       },
       "test": {
         "title": "✅ Tests | 测试",
-        "enable": true
+        "enable": false
       },
       "build": {
         "title": "👷‍ Build System | 构建",
@@ -115,7 +115,7 @@
       },
       "chore": {
         "title": "🎫 Chores | 其他更新",
-        "enable": true
+        "enable": false
       }
     }
   }
