@@ -17,6 +17,7 @@ jobs:
           npm install pnpm -g
           pnpm install
           pnpm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
+          pnpm run test
           pnpm run build
       - name: Publish
         run: |

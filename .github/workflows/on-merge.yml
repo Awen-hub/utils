@@ -1,0 +1,21 @@
+on:
+  pull_request:
+    branches:
+    - main
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+          registry-url: https://registry.npmjs.org/
+      - name: Install
+        run: |
+          npm install pnpm -g
+          pnpm install
+          pnpm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
+      - name: Test
+        run: pnpm run test
