@@ -1,5 +1,12 @@
 # 日志
 
+## [2.6.1](https://github.com/Awen-hub/utils/compare/v2.6.0...v2.6.1) (2021-05-24)
+
+
+### 🎫 Chores | 其他更新
+
+* **global:** 无关 ([5526127](https://github.com/Awen-hub/utils/commit/5526127))
+
 # [2.6.0](https://github.com/Awen-hub/utils/compare/v2.5.0...v2.6.0) (2021-05-24)
 
 
