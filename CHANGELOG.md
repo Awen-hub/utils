@@ -1,5 +1,12 @@
 # 日志
 
+## [2.3.13](https://github.com/Awen-hub/utils/compare/v2.3.12...v2.3.13) (2021-05-24)
+
+
+### 🐛 Bug Fixes -|- Bug 修复
+
+* **global:** 测试 ([71137c8](https://github.com/Awen-hub/utils/commit/71137c8))
+
 ## [2.3.12](https://github.com/Awen-hub/utils/compare/v2.3.11...v2.3.12) (2021-05-24)
 
 ## [2.3.11](https://github.com/Awen-hub/utils/compare/v2.3.10...v2.3.11) (2021-05-24)
