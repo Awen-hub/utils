@@ -1,4 +1,5 @@
-module.exports = [{
+module.exports = [
+  {
     type: "feat",
     release: "minor",
   },
