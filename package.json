@@ -76,55 +76,55 @@
     "settings": {
       "feat": {
         "title": "✨ Features | 新功能",
-        "hidden": false
+        "enable": true
       },
       "fix": {
         "title": "🐛 Bug Fixes | Bug 修复",
-        "hidden": false
+        "enable": true
       },
       "perf": {
         "title": "⚡ Performance Improvements | 性能优化",
-        "hidden": false
+        "enable": true
       },
       "revert": {
         "title": "⏪ Reverts | 回退",
-        "hidden": false
+        "enable": true
       },
       "refactor": {
         "title": "♻ Refactor | 代码重构",
-        "hidden": false
+        "enable": true
       },
       "docs": {
         "title": "📝 Documentation | 文档",
-        "hidden": false
+        "enable": true
       },
       "style": {
         "title": "💄 Styles | 风格",
-        "hidden": false
+        "enable": true
       },
       "test": {
         "title": "✅ Tests | 测试",
-        "hidden": false
+        "enable": true
       },
       "build": {
         "title": "👷‍ Build System | 构建",
-        "hidden": false
+        "enable": true
       },
       "ci": {
         "title": "🔧 Continuous Integration | CI 配置",
-        "hidden": false
+        "enable": true
       },
       "improvement": {
         "title": "➕ Improvement | 特性提升",
-        "hidden": false
+        "enable": true
       },
       "chore": {
         "title": "🎫 Chores | 其他更新",
-        "hidden": false
+        "enable": true
       },
       "config": {
         "title": "📝 Config | 修改配置",
-        "hidden": false
+        "enable": true
       }
     }
   }
