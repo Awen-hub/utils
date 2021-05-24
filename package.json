@@ -5,7 +5,7 @@
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "scripts": {
-    "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0",
+    "changelog": "conventional-changelog -p cmyr-config -i CHANGELOG.md -s -r 0",
     "lint": "yarn format && eslint --fix --no-ignore lib/**/*.ts test/**/*.ts",
     "test": "yarn lint && jest --collect-coverage",
     "doc": "jsdoc -c jsdoc.json",
@@ -56,19 +56,20 @@
     "rollup-plugin-typescript2": "^0.30.0",
     "semantic-release": "^17.4.3",
     "ts-jest": "^26.5.5",
-    "typescript": "^4.2.4"
+    "typescript": "^4.2.4",
+    "compare-func": "^2.0.0"
   },
   "exports": {
     "require": "./cjs/index.js",
     "import": "./esm/index.js"
   },
   "config": {
-    "commitizen": {
+    "commitizen": { 
       "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz-config.js"
     }
-  },
-  "dependencies": {
-    "compare-func": "^2.0.0"
   },
   "changelog": {
     "language": "zh",
