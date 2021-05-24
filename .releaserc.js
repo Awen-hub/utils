@@ -4,7 +4,6 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer", // 此处负责解析commit
       {
-        "preset": "angular",
         "config": "conventional-changelog-cmyr-config", //自定义配置，如果不填则是默认的conventional-changelog-angular
         "releaseRules": "./release-rules.js" //自定义配置，如果不填则是默认的conventional-changelog-angular
       }
