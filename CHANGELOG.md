@@ -1,5 +1,7 @@
 # 日志
 
+## <small>2.3.3 (2021-05-23)</small>
+
 ## <small>2.3.2 (2021-05-23)</small>
 
 * config(global): 修改配置 ([b743d3f](https://github.com/Awen-hub/utils/commit/b743d3f))
