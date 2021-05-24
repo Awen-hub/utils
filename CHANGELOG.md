@@ -1,5 +1,17 @@
 # 日志
 
+## [2.6.4](https://github.com/Awen-hub/utils/compare/v2.6.3...v2.6.4) (2021-05-24)
+
+
+### ✅ Tests | 测试
+
+* **action:** 测试 ([72c765e](https://github.com/Awen-hub/utils/commit/72c765e))
+
+
+### 🎫 Chores | 其他更新
+
+* **action:** 测试发版 ([1d01e13](https://github.com/Awen-hub/utils/commit/1d01e13))
+
 ## [2.6.3](https://github.com/Awen-hub/utils/compare/v2.6.2...v2.6.3) (2021-05-24)
 
 
