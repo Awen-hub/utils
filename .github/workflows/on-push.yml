@@ -12,14 +12,15 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Build
         run: |
-          npm install
-          npm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
-          npm run build
+          npm install pnpm -g
+          [npm install
+          pnpm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
+          pnpm run build
       - name: Publish
         run: |
           git config --global user.email "920733056@qq.com"
           git config --global user.name "Awen-hub"
-          npm run release 
+          pnpm run release 
         # npm version patch
         # npm publish || true
         env:
