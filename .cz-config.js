@@ -22,10 +22,6 @@ module.exports = {
       name: '🏁  test:           修改或添加测试文件'
     },
     {
-      value: 'config',
-      name: '📝  config:         修改或添加配置文件'
-    },
-    {
       value: 'style',
       name: '💅  style:          修改格式，不影响功能，例如空格、代码格式等'
     },
