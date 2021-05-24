@@ -73,4 +73,22 @@ const stringDist = {
   plugins,
 };
 
-export default [packageDist, numberDist, arrayDist, daterDist, stringDist];
+const objectDist = {
+  input: "lib/object/index.ts", // 入口文件
+  output: [
+    {
+      file: "lib/object/index.js", // 输出文件名称
+      format: "esm", // 输出模块格式
+    },
+  ],
+  plugins,
+};
+
+export default [
+  packageDist,
+  numberDist,
+  arrayDist,
+  daterDist,
+  stringDist,
+  objectDist,
+];

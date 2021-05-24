@@ -46,9 +46,9 @@ module.exports = {
         commit.hash = commit.hash.substring(0, 7);
       }
       if (typeof commit.subject === "string") {
-        let url = context.repository ?
-          `${context.host}/${context.owner}/${context.repository}` :
-          context.repoUrl;
+        let url = context.repository
+          ? `${context.host}/${context.owner}/${context.repository}`
+          : context.repoUrl;
         if (url) {
           url = `${url}/issues/`;
           // Issue URLs.

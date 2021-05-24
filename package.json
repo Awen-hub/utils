@@ -6,15 +6,15 @@
   "module": "esm/index.js",
   "scripts": {
     "changelog": "conventional-changelog -p cmyr-config -i CHANGELOG.md -s -r 0",
-    "lint": "yarn format && eslint --fix --no-ignore lib/**/*.ts test/**/*.ts",
+    "lint": "yarn format && yarn fix",
     "test": "yarn lint && jest --collect-coverage",
     "doc": "jsdoc -c jsdoc.json",
     "serve": "docsify serve ./docs",
     "md": "jsdoc2md esm/index.js > docs/readme.md",
     "build": "rollup -c  && tsc && yarn doc && yarn md && node scripts/handleDtsFile.js",
-    "format": "yarn prettier --write lib/**/*.ts && yarn prettier --write test/**/*.ts",
+    "format": "yarn prettier --write lib/**/*.ts && yarn prettier --write test/**/*.ts && yarn prettier --write *.js",
     "fix": "eslint --fix lib/**/*.ts --no-ignore && eslint --fix test/**/*.ts --no-ignore",
-    "prepare": "husky install",
+    "prepare": "husky install && npm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g",
     "release": "semantic-release",
     "patch": "npm version patch"
   },
