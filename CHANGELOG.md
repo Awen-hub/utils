@@ -7,6 +7,8 @@
 
 
 
+## [2.3.14](https://github.com/Awen-hub/utils/compare/v2.3.13...v2.3.14) (2021-05-24)
+
 ## [2.3.13](https://github.com/Awen-hub/utils/compare/v2.3.12...v2.3.13) (2021-05-24)
 
 
