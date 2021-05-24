@@ -1,8 +1,6 @@
-# Changelog
+## [2.3.14](https://github.com/Awen-hub/utils/compare/v2.3.13...v2.3.14) (2021-05-24)
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [2.3.14](https://github.com/Awen-hub/utils/compare/v2.3.13...v2.3.14) (2021-05-24)
 
 ## [2.3.13](https://github.com/Awen-hub/utils/compare/v2.3.12...v2.3.13) (2021-05-24)
 
@@ -210,3 +208,6 @@ All notable changes to this project will be documented in this file. See [standa
 * **npm:** 修改命令 ([e3f163a](https://github.com/Awen-hub/utils/commit/e3f163a))
 * **npm:** 增加github标识 ([0584cbb](https://github.com/Awen-hub/utils/commit/0584cbb))
 * **test:** 修复+0和-0不相等的情况 ([ccf3c04](https://github.com/Awen-hub/utils/commit/ccf3c04))
+
+
+

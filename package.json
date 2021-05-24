@@ -75,43 +75,56 @@
     "language": "zh",
     "settings": {
       "feat": {
-        "title": "✨ Features | 新功能"
+        "title": "✨ Features | 新功能",
+        "hidden": false
       },
       "fix": {
-        "title": "🐛 Bug Fixes | Bug 修复"
+        "title": "🐛 Bug Fixes | Bug 修复",
+        "hidden": false
       },
       "perf": {
-        "title": "⚡ Performance Improvements | 性能优化"
+        "title": "⚡ Performance Improvements | 性能优化",
+        "hidden": false
       },
       "revert": {
-        "title": "⏪ Reverts | 回退"
+        "title": "⏪ Reverts | 回退",
+        "hidden": false
       },
       "refactor": {
-        "title": "♻ Refactor | 代码重构"
+        "title": "♻ Refactor | 代码重构",
+        "hidden": false
       },
       "docs": {
-        "title": "📝 Documentation | 文档"
+        "title": "📝 Documentation | 文档",
+        "hidden": false
       },
       "style": {
-        "title": "💄 Styles | 风格"
+        "title": "💄 Styles | 风格",
+        "hidden": false
       },
       "test": {
-        "title": "✅ Tests | 测试"
+        "title": "✅ Tests | 测试",
+        "hidden": false
       },
       "build": {
-        "title": "👷‍ Build System | 构建"
+        "title": "👷‍ Build System | 构建",
+        "hidden": false
       },
       "ci": {
-        "title": "🔧 Continuous Integration | CI 配置"
+        "title": "🔧 Continuous Integration | CI 配置",
+        "hidden": false
       },
       "improvement": {
-        "title": "➕ Improvement | 特性提升"
+        "title": "➕ Improvement | 特性提升",
+        "hidden": false
       },
       "chore": {
-        "title": "🎫 Chores | 其他更新"
+        "title": "🎫 Chores | 其他更新",
+        "hidden": false
       },
       "config": {
-        "title": "📝 Config | 修改配置"
+        "title": "📝 Config | 修改配置",
+        "hidden": false
       }
     }
   }
