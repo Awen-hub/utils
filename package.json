@@ -14,7 +14,6 @@
     "build": "rollup -c  && tsc && yarn doc && yarn md && node scripts/handleDtsFile.js",
     "format": "yarn prettier --write lib/**/*.ts && yarn prettier --write test/**/*.ts && yarn prettier --write *.js",
     "fix": "eslint --fix lib/**/*.ts --no-ignore && eslint --fix test/**/*.ts --no-ignore",
-    "prepare": "husky install && npm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g",
     "release": "semantic-release",
     "patch": "npm version patch"
   },
