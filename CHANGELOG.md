@@ -1,5 +1,18 @@
 # 日志
 
+## [2.6.3](https://github.com/Awen-hub/utils/compare/v2.6.2...v2.6.3) (2021-05-24)
+
+
+### ✅ Tests | 测试
+
+* **ci:** 测试 ([e1a8298](https://github.com/Awen-hub/utils/commit/e1a8298))
+
+
+### 🎫 Chores | 其他更新
+
+* **index:** 更改入口位置 ([043de56](https://github.com/Awen-hub/utils/commit/043de56))
+* **vscode:** 不上传 ([513adec](https://github.com/Awen-hub/utils/commit/513adec))
+
 ## [2.6.2](https://github.com/Awen-hub/utils/compare/v2.6.1...v2.6.2) (2021-05-24)
 
 
