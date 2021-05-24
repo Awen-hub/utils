@@ -1,3 +1,24 @@
+# 日志
+
+# [2.4.0](https://github.com/Awen-hub/utils/compare/v2.3.14...v2.4.0) (2021-05-24)
+
+
+### ♻ Refactor | 代码重构
+
+* **global:** 测试 ([56d7fd0](https://github.com/Awen-hub/utils/commit/56d7fd0))
+* **global:** 测试 ([71d416b](https://github.com/Awen-hub/utils/commit/71d416b))
+* **global:** 测试 ([fcfcc10](https://github.com/Awen-hub/utils/commit/fcfcc10))
+
+
+### 🎫 Chores | 其他更新
+
+* **release:** 2.3.14 ([868e71f](https://github.com/Awen-hub/utils/commit/868e71f))
+
+
+### 📝 Documentation | 文档
+
+* **global:** 测试 ([e00ffc0](https://github.com/Awen-hub/utils/commit/e00ffc0))
+
 ## [2.3.14](https://github.com/Awen-hub/utils/compare/v2.3.13...v2.3.14) (2021-05-24)
 
 
@@ -359,6 +380,3 @@
 * **npm:** 修改命令 ([e3f163a](https://github.com/Awen-hub/utils/commit/e3f163a))
 * **npm:** 增加github标识 ([0584cbb](https://github.com/Awen-hub/utils/commit/0584cbb))
 * **test:** 修复+0和-0不相等的情况 ([ccf3c04](https://github.com/Awen-hub/utils/commit/ccf3c04))
-
-
-
