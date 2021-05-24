@@ -17,7 +17,8 @@ const plugins = [
 
 const packageDist = {
   input: "./lib/index.ts", // 入口文件
-  output: [{
+  output: [
+    {
       file: pkg.main, // 输出文件名称
       format: "cjs", // 输出模块格式
     },
@@ -31,45 +32,55 @@ const packageDist = {
 
 const arrayDist = {
   input: "lib/array/index.ts", // 入口文件
-  output: [{
-    file: "lib/array/index.js", // 输出文件名称
-    format: "esm", // 输出模块格式
-  }, ],
+  output: [
+    {
+      file: "lib/array/index.js", // 输出文件名称
+      format: "esm", // 输出模块格式
+    },
+  ],
   plugins,
 };
 
 const numberDist = {
   input: "lib/number/index.ts", // 入口文件
-  output: [{
-    file: "lib/number/index.js", // 输出文件名称
-    format: "esm", // 输出模块格式
-  }, ],
+  output: [
+    {
+      file: "lib/number/index.js", // 输出文件名称
+      format: "esm", // 输出模块格式
+    },
+  ],
   plugins,
 };
 
 const daterDist = {
   input: "lib/date/index.ts", // 入口文件
-  output: [{
-    file: "lib/date/index.js", // 输出文件名称
-    format: "esm", // 输出模块格式
-  }, ],
+  output: [
+    {
+      file: "lib/date/index.js", // 输出文件名称
+      format: "esm", // 输出模块格式
+    },
+  ],
   plugins,
 };
 const stringDist = {
   input: "lib/string/index.ts", // 入口文件
-  output: [{
-    file: "lib/string/index.js", // 输出文件名称
-    format: "esm", // 输出模块格式
-  }, ],
+  output: [
+    {
+      file: "lib/string/index.js", // 输出文件名称
+      format: "esm", // 输出模块格式
+    },
+  ],
   plugins,
 };
 
 const objectDist = {
   input: "lib/object/index.ts", // 入口文件
-  output: [{
-    file: "lib/object/index.js", // 输出文件名称
-    format: "esm", // 输出模块格式
-  }, ],
+  output: [
+    {
+      file: "lib/object/index.js", // 输出文件名称
+      format: "esm", // 输出模块格式
+    },
+  ],
   plugins,
 };
 
