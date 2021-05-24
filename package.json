@@ -5,7 +5,7 @@
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "scripts": {
-    "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0  -n ./changelog-option.js",
+    "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0",
     "lint": "yarn format && eslint --fix --no-ignore lib/**/*.ts test/**/*.ts",
     "test": "yarn lint && jest --collect-coverage",
     "doc": "jsdoc -c jsdoc.json",
