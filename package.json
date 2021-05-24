@@ -1,6 +1,6 @@
 {
   "name": "mi-utils",
-  "version": "2.3.6",
+  "version": "2.3.7",
   "description": "团队工具函数库",
   "main": "cjs/index.js",
   "module": "esm/index.js",
@@ -64,7 +64,7 @@
     "import": "./esm/index.js"
   },
   "config": {
-    "commitizen": { 
+    "commitizen": {
       "path": "node_modules/cz-customizable"
     },
     "cz-customizable": {
