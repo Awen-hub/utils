@@ -13,7 +13,7 @@ jobs:
       - name: Build
         run: |
           npm install pnpm -g
-          [npm install
+          pnpm install
           pnpm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
           pnpm run build
       - name: Publish
