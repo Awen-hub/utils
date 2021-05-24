@@ -2,16 +2,8 @@
 
 module.exports = {
   types: [{
-      value: 'WIP',
-      name: '🚧  WIP:            开发中'
-    },
-    {
       value: 'feat',
       name: '✨  feat:           新特性'
-    },
-    {
-      value: 'improvement',
-      name: '➕  improvement:    对现有特性的提升'
     },
     {
       value: 'fix',

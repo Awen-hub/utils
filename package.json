@@ -114,16 +114,8 @@
         "title": "🔧 Continuous Integration | CI 配置",
         "enable": true
       },
-      "improvement": {
-        "title": "➕ Improvement | 特性提升",
-        "enable": true
-      },
       "chore": {
         "title": "🎫 Chores | 其他更新",
-        "enable": true
-      },
-      "config": {
-        "title": "📝 Config | 修改配置",
         "enable": true
       }
     }

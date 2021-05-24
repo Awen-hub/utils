@@ -33,7 +33,6 @@ module.exports = [{
   {
     type: "test",
     release: "patch",
-    hidden: false
   },
   {
     type: "build",
@@ -42,13 +41,5 @@ module.exports = [{
   {
     type: "ci",
     release: "patch",
-  },
-  {
-    type: "config",
-    release: "patch",
-  },
-  {
-    type: "improvement",
-    release: "patch",
-  },
+  }
 ];
