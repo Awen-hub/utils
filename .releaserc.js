@@ -1,5 +1,5 @@
 module.exports = {
-  "branches": "main",
+  branches: "main",
   plugins: [
     [
       "@semantic-release/commit-analyzer", // 此处负责解析commit
@@ -10,6 +10,7 @@ module.exports = {
     ],
     ["@semantic-release/release-notes-generator", //此处生成github-release的日志
       {
+        "preset": "conventionalcommits",
         "config": "conventional-changelog-cmyr-config" // 指定配置，这里才是负责生成日志的，也就是说，如果自定义了writerOpts，只有在这里写才会生效
       }
     ],
