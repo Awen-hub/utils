@@ -1,5 +1,7 @@
 # 日志
 
+## [2.3.8](https://github.com/Awen-hub/utils/compare/v2.3.7...v2.3.8) (2021-05-24)
+
 ## [2.3.7](https://github.com/Awen-hub/utils/compare/v2.3.6...v2.3.7) (2021-05-24)
 
 ## [2.3.6](https://github.com/Awen-hub/utils/compare/v2.3.5...v2.3.6) (2021-05-24)
