@@ -39,8 +39,11 @@
     "@typescript-eslint/parser": "^4.23.0",
     "babel-preset-env": "^1.7.0",
     "clean-jsdoc-theme": "^3.2.6",
+    "commitizen": "^4.2.4",
     "conventional-changelog-cli": "^2.1.1",
+    "conventional-changelog-cmyr-config": "^1.2.3",
     "conventional-changelog-custom-config": "^0.3.1",
+    "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^6.3.0",
     "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
@@ -68,6 +71,47 @@
     "compare-func": "^2.0.0"
   },
   "changelog": {
-    "emojis": true
+    "language": "zh",
+    "settings": {
+      "feat": {
+        "title": "✨ Features | 新功能"
+      },
+      "fix": {
+        "title": "🐛 Bug Fixes | Bug 修复"
+      },
+      "perf": {
+        "title": "⚡ Performance Improvements | 性能优化"
+      },
+      "revert": {
+        "title": "⏪ Reverts | 回退"
+      },
+      "refactor": {
+        "title": "♻ Refactor | 代码重构"
+      },
+      "docs": {
+        "title": "📝 Documentation | 文档"
+      },
+      "style": {
+        "title": "💄 Styles | 风格"
+      },
+      "test": {
+        "title": "✅ Tests | 测试"
+      },
+      "build": {
+        "title": "👷‍ Build System | 构建"
+      },
+      "ci": {
+        "title": "🔧 Continuous Integration | CI 配置"
+      },
+      "improvement": {
+        "title": "➕ Improvement | 特性提升"
+      },
+      "chore": {
+        "title": "🎫 Chores | 其他更新"
+      },
+      "config": {
+        "title": "📝 Config | 修改配置"
+      }
+    }
   }
 }
