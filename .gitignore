@@ -4,3 +4,4 @@ esm
 coverage
 jsdocs
 *.log
+.vscode

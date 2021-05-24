@@ -16,7 +16,7 @@ const plugins = [
 ];
 
 const packageDist = {
-  input: "index.ts", // 入口文件
+  input: "./lib/index.ts", // 入口文件
   output: [
     {
       file: pkg.main, // 输出文件名称
