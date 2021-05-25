@@ -1,6 +1,6 @@
 {
   "name": "mi-utils",
-  "version": "2.6.4",
+  "version": "1.0.0",
   "description": "团队工具函数库",
   "main": "cjs/index.js",
   "module": "esm/index.js",
