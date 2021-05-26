@@ -1,5 +1,12 @@
 # 日志
 
+# [2.7.0](https://github.com/Awen-hub/utils/compare/v2.6.4...v2.7.0) (2021-05-25)
+
+
+### ✨ Features | 新功能
+
+* **number:** 增加新功能：数字千位分隔符 ([2415041](https://github.com/Awen-hub/utils/commit/2415041))
+
 ## [2.6.4](https://github.com/Awen-hub/utils/compare/v2.6.3...v2.6.4) (2021-05-24)
 
 
