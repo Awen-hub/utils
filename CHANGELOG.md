@@ -1,5 +1,12 @@
 # 日志
 
+## [2.7.1](https://github.com/Awen-hub/utils/compare/v2.7.0...v2.7.1) (2021-05-26)
+
+
+### 📝 Documentation | 文档
+
+* **docs:** 修改文档名字 ([3d128f2](https://github.com/Awen-hub/utils/commit/3d128f2))
+
 # [2.7.0](https://github.com/Awen-hub/utils/compare/v2.6.4...v2.7.0) (2021-05-25)
 
 
