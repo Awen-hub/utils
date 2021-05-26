@@ -10,7 +10,7 @@
     "test": "yarn lint && jest --collect-coverage",
     "doc": "jsdoc -c jsdoc.json",
     "serve": "docsify serve ./docs",
-    "md": "jsdoc2md esm/index.js > docs/readme.md",
+    "md": "jsdoc2md esm/index.js > docs/README.md",
     "build": "rollup -c  && tsc && yarn doc && yarn md && node scripts/handleDtsFile.js",
     "format": "yarn prettier --write lib/**/*.ts && yarn prettier --write test/**/*.ts && yarn prettier --write *.js",
     "fix": "eslint --fix lib/**/*.ts --no-ignore && eslint --fix test/**/*.ts --no-ignore",
